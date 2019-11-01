@@ -13,27 +13,30 @@
 
 <body>
     <header>
-        <!-- navigation -->
+        <!-- NAVIGATION SECTION -->
 
         <nav class="container-fluid">
-            <div class="row align-items-center">
-            <div class="logo col-sm-4"><img class="logo-picture" src="img/websitelogo.png" alt="logo"></div>
-            <ul class="col-sm-4">
-                <li>Home</li> |
-                <li>About</li> |
-                <li>Contact</li>
-            </ul>
-            <div class="number-header col-sm-4"><a href="tel:559-123-555">559-123-5555</a></div>
+            <div class="row align-items-center justify-content-end">
+                <div class="logo col-sm-4"><img class="logo-picture" src="#" alt="logo"></div>
+                <ul class="col-sm-4 nav-height">
+                    <li><a class="linking" href="htmlcsschall.html">Home</a></li> |
+                    <li><a class="linking" href="#about">About</a></li> |
+                    <li><a class="linking" href="#contact">Contact</a></li>
+                </ul>
+                <div class="number-header col-sm-4 nav-height">
+                    <div class="orange"><a class="linking" href="tel:559-123-555">559-123-5555</a></div>
+                </div>
             </div>
         </nav>
 
 
-        <!-- header image -->
-        <div class="header-image"> <img class="header-image-picture" src="img/pumpkin.jpg"
-                alt="Picture of two skeletons for Halloween"> </div>
+        <!-- HEADER IMAGE SECTION -->
+        <section class="header-image"> <img class="header-image-picture" src="img/pumpkin.jpg"
+                alt="Picture of two skeletons for Halloween"> </section>
+
     </header>
 
-    <!-- The one with the three images -->
+    <!-- ICON SECTION -->
     <section class="section-icons container">
         <div class="row align-items-center">
             <div class="icon-one col-sm-4">
@@ -54,7 +57,7 @@
         </div>
     </section>
 
-    <!-- Mission statement section -->
+    <!-- MISSION SECTION -->
     <section class="container-fluid mission">
         <p>Mission Statement Header<br>
             Mission Statement footer <br>
@@ -62,57 +65,70 @@
     </section>
 
 
-    <!-- Large section with image and paragraphs -->
-    <div class="container-fluid">
-        <div class="container content-textphoto">
-            <div class="row align-items-center">
-                <div class="col-md-6"><img class="contentphoto" src="img/halloweensprinkles.jpg"
+    <!-- CONTENT SECTION -->
+    <section class="container-fluid" id="about">
+        <div class="container content-text-photo">
+
+            <article class="row align-items-center">
+                <div class="col-md-6">
+                    <img class="content-photo" src="img/halloweensprinkles.jpg"
                         alt="Picure of Halloween Sprinkles"></div>
-                <div class="col-md-6 contenttext">
+                <div class="col-md-6 content-text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptates delectus, expedita
                         accusamus reprehenderit, esse quidem ab tempora ad possimus quis repellat facilis quisquam
                         eveniet alias necessitatibus distinctio excepturi laudantium, earum deleniti obcaecati non optio
                         in? Magni illum iure praesentium laudantium culpa. Tempore architecto corrupti dolores unde
                         ullam corporis cupiditate. </p>
                 </div>
-            </div>
+            </article>
 
-            <div class="row align-items-center">
-                <div class="col-md-6 contenttext">
+            <article class="row align-items-center">
+                <div class="col-md-6 content-text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptates delectus, expedita
                         accusamus reprehenderit, esse quidem ab tempora ad possimus quis repellat facilis quisquam
                         eveniet alias necessitatibus distinctio excepturi laudantium, earum deleniti obcaecati non optio
                         in? Magni illum iure praesentium laudantium culpa. Tempore architecto corrupti dolores unde
                         ullam corporis cupiditate.</p>
                 </div>
-                <div class="col-md-6"><img class="contentphoto" src="img/pumpkin.jpg" alt="Picure of Halloween Pumpkins">
+                <div class="col-md-6"><img class="content-photo" src="img/pumpkin.jpg"
+                        alt="Picure of Halloween Pumpkins">
                 </div>
-            </div>
+            </article>
 
-            <div class="row align-items-center">
-                <div class="col-md-6"><img class="contentphoto" src="img/halloweensprinkles.jpg"
+            <article class="row align-items-center">
+                <div class="col-md-6"><img class="content-photo" src="img/halloweensprinkles.jpg"
                         alt="Picure of Halloween Sprinkles"></div>
-                <div class="col-md-6 contenttext">
+                <div class="col-md-6 content-text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptates delectus, expedita
                         accusamus reprehenderit, esse quidem ab tempora ad possimus quis repellat facilis quisquam
                         eveniet alias necessitatibus distinctio excepturi laudantium, earum deleniti obcaecati non optio
                         in? Magni illum iure praesentium laudantium culpa. Tempore architecto corrupti dolores unde
                         ullam corporis cupiditate.</p>
                 </div>
-            </div>
+            </article>
         </div>
     </div>
-    </div>
+</section>
 
 
-    <!-- Footer -->
+    <!-- FOOTER SECTION -->
     <footer>
-        <div class="row align-items-center">
-            <div class="box number col-sm-4"><a href="tel:559-123-5555">559-123-5555</a></div>
-            <div class="box col-sm-4"><a href="htmlcsschall.html">weareawesome.com</a></div>
-            <div class="box email col-sm-4"><a href="email:weareawesome@email.com">weareawesome@email.com</a></div>
+        <div class="container-fluid">
+            <div class="row" id="contact">
+
+                <div class="col-sm-4 footer-height">
+                    <div class="orange-number"><a class="linking" href="tel:559-123-5555">559-123-5555</a></div>
+                </div>
+                <div class="col-sm-4 footer-height"><a class="linking" href="htmlcsschall.html">weareawesome.com</a>
+                </div>
+                <div class="col-sm-4 footer-height">
+                    <div class="orange-email"><a class="linking"
+                            href="mailto:weareawesome@email.com">weareawesome@email.com</a></div>
+                </div>
+
+            </div>
         </div>
     </footer>
-</body>
 
+</body>
 </html>
